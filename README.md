@@ -1,6 +1,11 @@
-# Wallpaper Collection
+# dotfiles 
+My personal configuration and digital environment. 
+Part of my `brain`. 
 
-I will update this repository every time I find a wallpaper that I love.
+> Keep it simple. Keep it reproducible. Keep it mine. 
 
+This repository contains the tools, configurations, scripts, and experiments that shape the way I work. 
+It evolves with me.
+---
 
-<small> I hope you enjoy it </small>
+[@israelhuacce](https://github.com/israelhuacce)
