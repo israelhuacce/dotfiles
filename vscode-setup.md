@@ -1,9 +1,8 @@
 ---
-created: 2023-09-26
+created: 2023-03-15
 release: 2026-09-26
 aliases:
 ---
-
 # Extensiones : 
 ## Temas
 - Andromeda
@@ -19,3 +18,4 @@ aliases:
 - Excalidraw
 # Atajos
 - Alt + z = colapsar en toda la pantalla.
+- Ctrl + b = cerrar y abrir barra izquierda

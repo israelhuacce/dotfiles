@@ -1,0 +1,219 @@
+/* ============================================================
+   ZEN BROWSER — DARK GLASS
+   Source Code Pro + Transparent Zen
+   ============================================================ */
+
+
+/* ============================================================
+   1. FUENTE
+   ============================================================ */
+
+* {
+    font-family: "Source Code Pro", monospace !important;
+}
+
+:root {
+    --font-family: "Source Code Pro", monospace !important;
+}
+
+
+/* ============================================================
+   2. FONDO PRINCIPAL TRANSPARENTE
+   ============================================================ */
+
+:root {
+    --zen-main-browser-background: transparent !important;
+    --zen-themed-toolbar-bg-transparent: transparent !important;
+}
+
+#browser,
+#zen-browser-background,
+#zen-main-app-wrapper,
+#zen-appcontent-wrapper {
+    background: transparent !important;
+}
+
+
+/* ============================================================
+   3. BARRA SUPERIOR
+   ============================================================ */
+
+#navigator-toolbox {
+    background: rgba(18, 18, 22, 0.28) !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+
+/* ============================================================
+   4. SIDEBAR
+   ============================================================ */
+
+#zen-sidebar,
+#sidebar-box {
+    background: rgba(15, 15, 18, 0.30) !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+
+/* ============================================================
+   5. CONTENEDOR DE PESTAÑAS
+   ============================================================ */
+
+#zen-tabs-wrapper,
+#tabbrowser-tabs {
+    background: transparent !important;
+}
+
+
+/* ============================================================
+   6. PESTAÑAS
+   ============================================================ */
+
+.tabbrowser-tab {
+    margin: 3px 5px !important;
+    border-radius: 9px !important;
+
+    transition:
+        background 0.18s ease,
+        transform 0.18s ease !important;
+}
+
+
+/* Pestaña al pasar el mouse */
+
+.tabbrowser-tab:hover {
+    background: rgba(255, 255, 255, 0.07) !important;
+}
+
+
+/* Pestaña activa */
+
+.tabbrowser-tab[selected="true"] {
+    background: rgba(255, 255, 255, 0.10) !important;
+}
+
+
+/* ============================================================
+   7. LABELS DE LAS PESTAÑAS
+   ============================================================ */
+
+.tab-label {
+    font-family: "Source Code Pro", monospace !important;
+    font-size: 13px !important;
+    letter-spacing: -0.1px !important;
+}
+
+
+/* ============================================================
+   8. BARRA DE DIRECCIÓN
+   ============================================================ */
+
+#urlbar-background {
+    background: rgba(20, 20, 23, 0.45) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    border-radius: 10px !important;
+    box-shadow: none !important;
+}
+
+
+/* URL */
+
+#urlbar-input {
+    font-family: "Source Code Pro", monospace !important;
+}
+
+
+/* ============================================================
+   9. BARRA DE BÚSQUEDA
+   ============================================================ */
+
+#searchbar {
+    background: rgba(20, 20, 23, 0.40) !important;
+    border-radius: 10px !important;
+}
+
+
+/* ============================================================
+   10. BOTONES DE LA TOOLBAR
+   ============================================================ */
+
+toolbarbutton {
+    border-radius: 8px !important;
+
+    transition:
+        background 0.18s ease,
+        transform 0.18s ease !important;
+}
+
+
+toolbarbutton:hover {
+    background: rgba(255, 255, 255, 0.07) !important;
+}
+
+
+/* ============================================================
+   11. MENÚS
+   ============================================================ */
+
+menupopup,
+panel {
+    background: rgba(25, 25, 29, 0.92) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    border-radius: 10px !important;
+}
+
+
+/* ============================================================
+   12. MENÚ ITEMS
+   ============================================================ */
+
+menu,
+menuitem {
+    font-family: "Source Code Pro", monospace !important;
+    border-radius: 7px !important;
+}
+
+
+menu:hover,
+menuitem:hover {
+    background: rgba(255, 255, 255, 0.08) !important;
+}
+
+
+/* ============================================================
+   13. NUEVA PESTAÑA
+   ============================================================ */
+
+#zen-empty-tab {
+    background: transparent !important;
+}
+
+
+/* ============================================================
+   14. TRANSICIONES
+   ============================================================ */
+
+#navigator-toolbox,
+#zen-sidebar,
+#sidebar-box,
+.tabbrowser-tab,
+toolbarbutton {
+    transition:
+        background 0.2s ease,
+        opacity 0.2s ease !important;
+}
+
+
+/* ============================================================
+   15. QUITAR SOMBRAS PESADAS
+   ============================================================ */
+
+#browser,
+#navigator-toolbox,
+#zen-sidebar,
+#sidebar-box,
+.tabbrowser-tab {
+    box-shadow: none !important;
+}

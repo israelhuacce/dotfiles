@@ -13,8 +13,9 @@ aliases:
 - ctrl + , = ocultar barra de izquierda - app ribbon del plugin de Hider
 - ctrl + b = insertar plantilla
 - ctrl + u = abrir en la app por defecto
-- ctrl + i = abrir ubicación del archivo
+- ctrl + i = abrir ubicación del archivo - mostrar carpeta
 - ctrl + l = buscador de omnisearch
+- ctrl + , = alternar cinta 
 - f4 = abrir otra bóveda
 
 # Temas
@@ -28,15 +29,22 @@ aliases:
 - Minimal Theme Settings : agrega opciones al tema "Minimal"
 - Calendar : Calendario en obsidian
 - Dataview : Comandos de visualización
-- Banners : Banners por notas
+- Pixel Banners : Banners por notas
 - Excalidraw : Gestión libre de notas, apuntes, imágenes y archivos.
 - Omnisearch : buscador de archivos con esteroides
-- Iconic : icones personalizables
+- Iconic : iconos personalizables
 - Music Player : Gestión de archivos de audio
 - PDF ++ : Editor y lector de archivos formato pdf
+- Paste image Rename : al copiar una imagen, obliga el ingreso de un nombre para el archivo
 
 # Vista gráfica 
 - Color amarillo : notas de zettelkasten
 - Color morado : notas de Journal
 - Color rojo : libros
 - Color verde : cursos
+
+# Configuraciones
+- Longitud de línea legible : off
+
+# Etiquetas
+- zettelkasten : notas pequeñas que llevan informaciones
